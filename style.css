@@ -1,0 +1,36 @@
+body{
+   padding: 0;
+}
+#title {
+   font-size: 28px;
+   color: #7a7a7a;
+   text-align: center;
+}
+
+table {
+   padding: 0;
+   width: 80%;
+   margin: 5% 10%;
+   border: 0;
+   border-collapse: collapse;
+}
+
+thead {
+   border: 2px solid #9e3631;
+}
+
+tr:nth-child(odd) {
+   background-color: white;
+}
+
+tr:nth-child(even) {
+   background-color: #E9ECEF;
+}
+
+.center {
+   text-align: center;
+}
+.townLink {
+   text-decoration: none;
+   color: #9e3631;
+} 
